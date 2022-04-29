@@ -1,62 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app3.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app3.css" />
     <style>
+      input[type="number"]::-webkit-outer-spin-button,
+      input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
 
-        input[type=number]::-webkit-outer-spin-button,
-        
-        input[type=number]::-webkit-inner-spin-button {
-        
-            -webkit-appearance: none;
-        
-            margin: 0;
-        
-        }
-        
-         
-        
-        input[type=number] {
-        
-            -moz-appearance:textfield;
-        
-        }
-        
-        </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+        margin: 0;
+      }
+
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto:wght@100&family=Sansita+Swashed:wght@700&display=swap');
-        </style>
+      @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto:wght@100&family=Sansita+Swashed:wght@700&display=swap");
+    </style>
 
     <title>Tercera Pagina Examen</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="contenedor">
-        <header>
-            <nav class="topnav">
-                <div class="logo">
-                    <img src="imagenes/LineaAguito.svg" class="linea">
-                    <img src="imagenes/logo.svg">
-                    <img src="imagenes/AGUITO.svg" class="Aguito">
-                </div>
-                <ul id="listamenu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="acerca.html">Acerca de</a></li>
-                    <li><a href="aplicacion.html"  class="selecciondado">Aplicación</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1 class="h1principal">Calcular Salario</h1>
-            <h2 class="h2primero">Ingrese su salario</h2>
-            <input type="number" class="btnSalarioMensual">
-            <button class="calcular">Calcular</button>
+      <header>
+        <nav class="topnav">
+          <div class="logo">
+            <img src="imagenes/LineaAguito.svg" class="linea" />
+            <img src="imagenes/logo.svg" />
+            <img src="imagenes/AGUITO.svg" class="Aguito" />
+          </div>
+          <ul id="listamenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+            <li>
+              <a href="aplicacion.html" class="selecciondado">Aplicación</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 class="h1principal">Calcular Salario</h1>
+        <h2 class="h2primero">Ingrese su salario</h2>
+        <input type="number" class="btnSalarioMensual" />
+        <button class="calcular">Calcular</button>
 
-            <div class="salarioB"></div>
-        </main>
+        <div class="salarioB">
+          <p class="psalarioB">Salario Bruto Mensual</p>
+          <p class="lblsalariobm" id="salariobruto">200</p>
+        </div>
+
+        <div class="deduccionINSS">
+          <p class="psalarioB">Deducción INSS</p>
+          <p class="lblsalariobm" id="deduccionINSS">200</p>
+        </div>
+
+        <div class="salarioNeto">
+          <p class="psalarioBp">Salario neto (luego de deducciones)</p>
+          <p class="lblsalariobm" id="salarioNeto">200</p>
+        </div>
+
+        <div class="deduccionImpuesto">
+          <p class="psalarioBpi">Deducción Impuesto sobre la Renta (IR)</p>
+          <p class="lblsalariobm" id="deduccionImpuesto">200</p>
+        </div>
+
+        <div class="salarioTotal">
+          <p class="psalarioBpis">Salario total con deducciones</p>
+          <p class="lblsalariobm" id="salarioTotal">200</p>
+        </div>
+      </main>
+
+      <footer>
+        <div class="pie">
+          <div class="logo">
+            <img src="imagenes/LineaAguito.svg" class="linea" />
+            <img src="imagenes/logo.svg" />
+            <img src="imagenes/AGUITO.svg" class="Aguito" />
+            <p class="ppie">Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
