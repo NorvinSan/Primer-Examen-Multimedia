@@ -28,5 +28,13 @@ width: 193px;
 height: 47.85px;
 left: 197px;
 top: 24.15px;
-background-color: black;
+
+}
+.linea{
+position: absolute;
+width: 142px;
+height: 3px;
+left: 50px;
+top: 0px;
+
 }
