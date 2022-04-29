@@ -203,3 +203,16 @@ height: 6px;
 left: 904px;
 top: 1466px;
 }
+
+.patrocinadores img{
+        height:100px;
+        margin: 36px;
+        cursor: pointer;
+}
+.patrocinadores{
+    text-align: center;
+    top: 0px;
+    display: flex;
+    margin-top: 1486px;
+    margin-left: 500px;
+}
