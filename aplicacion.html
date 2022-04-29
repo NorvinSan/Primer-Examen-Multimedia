@@ -5,7 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app3.css">
+    <style>
 
+        input[type=number]::-webkit-outer-spin-button,
+        
+        input[type=number]::-webkit-inner-spin-button {
+        
+            -webkit-appearance: none;
+        
+            margin: 0;
+        
+        }
+        
+         
+        
+        input[type=number] {
+        
+            -moz-appearance:textfield;
+        
+        }
+        
+        </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto:wght@100&family=Sansita+Swashed:wght@700&display=swap');
@@ -29,6 +49,14 @@
                 </ul>
             </nav>
         </header>
+        <main>
+            <h1 class="h1principal">Calcular Salario</h1>
+            <h2 class="h2primero">Ingrese su salario</h2>
+            <input type="number" class="btnSalarioMensual">
+            <button class="calcular">Calcular</button>
+
+            <div class="salarioB"></div>
+        </main>
     </div>
 </body>
 </html>

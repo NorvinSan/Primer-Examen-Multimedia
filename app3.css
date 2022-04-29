@@ -1,84 +1,141 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
 
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    
-    }
-    
-    .contenedor{
-        width: 100%;
-        min-height: 100vh;
-        box-sizing: border-box;
-        overflow: hidden;
-        
-    }
-    .topnav{
+.contenedor {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.topnav {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo {
+  position: absolute;
+  width: 193px;
+  height: 47.85px;
+  left: 197px;
+  top: 24.15px;
+}
+.linea {
+  position: absolute;
+  width: 142px;
+  height: 3px;
+  left: 50px;
+  top: 0px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.topnav ul li {
+  list-style: none; /*Quita el punto*/
+  display: inline-block; /*Los alinia en una linea por bloques*/
+  margin-right: 125px;
+  margin-top: 30px;
+}
+.selecciondado {
+  /*margin-right: 50px;*/
+  /*right: 50px;*/
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: rgb(226, 226, 226);
+}
+.topnav ul li a {
+  text-decoration: none;
+  color: #01a1e9;
+  font-size: 14px;
+}
+
+.topnav ul li a:hover {
+  color: #6e29a9;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: rgb(226, 226, 226);
+}
+
+.h1principal{
+position: absolute;
+width: 459px;
+height: 75px;
+left: 766px;
+top: 213px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 75px;
+color: #8200FF;
+
+}
+
+.h2primero{
+position: absolute;
+width: 390px;
+height: 38px;
+left: 866px;
+top: 356px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 38px;
+color: #1B314F;
+}
+
+.calcular{
     position: absolute;
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    
-    
-    }
-    
-    .logo{
+    width: 272px;
+    height: 68px;
+    left: 855px;
+    top: 550px;
+
+    background: #6E29A9;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.btnSalarioMensual{
+    display: flex;
     position: absolute;
-    width: 193px;
-    height: 47.85px;
-    left: 197px;
-    top: 24.15px;
+    left: 755px;
+    top: 450px;
+    width: 460px;
+    height: 54px;
     
-    }
-    .linea{
+}
+
+.salarioB{
+    background-color: #01a1e9;
     position: absolute;
-    width: 142px;
-    height: 3px;
-    left: 50px;
-    top: 0px;
-    
-    }
-    
-    nav{
-        flex:1;
-        text-align: right;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    
-    }
-    .topnav ul li{
-        list-style: none;/*Quita el punto*/
-        display: inline-block;/*Los alinia en una linea por bloques*/
-        margin-right: 125px;
-        margin-top: 30px;
-    }
-    .selecciondado{
-        /*margin-right: 50px;*/
-        /*right: 50px;*/
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 5px;
-        padding-bottom:5px;
-        background: rgb(226, 226, 226);
-    
-    }
-    .topnav ul li a{
-        text-decoration: none;
-        color: #01A1E9;
-        font-size: 14px;
-        
-       
-        }
-        
-    .topnav ul li a:hover{
-           color:  #6E29A9;
-           padding-left: 25px;
-           padding-right: 25px;
-           padding-top: 5px;
-           padding-bottom:5px;
-           background: rgb(226, 226, 226);
-           
-        }
+    display: flex;
+    left: 100px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+}
