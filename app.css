@@ -106,5 +106,69 @@ line-height: 112px;
 }
 
 .tituloh2{
+position: absolute;
+width: 378px;
+height: 75px;
+left: 770px;
+top: 830px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+color: #6E29A9;
+justify-content: center;
+}
+
+.row1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    color: red;
+    top: 820px;
+}
+
+.col1row1{
+    flex-basis: 40%;/*La propiedad de CSS flex-basis especifíca la base flexible, la cual es el tamaño inicial de un elemento flexible. Ésta propiedad determina el tamaño de una caja de contenidos a no ser que se haya especificado de otra forma usando box-sizing */
+    position: relative;
+    margin-left: 250px;
+    background-color: red;
+}
+
+.imagenestadistica{
+position: absolute;
+width: 554px;
+height: 389px;
+left: 150px;
+top: 30px;
+
+}
+
+.col2row1{
+    position: absolute;
+    width: 460px;
+    height: 209px;
+    left: 1055px;
+    top: 30px;
     
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+        
+    color: #000000;
+}
+
+.rectangulo{
+position: absolute;
+width: 272px;
+height: 68px;
+left: 855px;
+top: 1162px;
+
+background: #6E29A9;
+border-radius: 10px;
 }
