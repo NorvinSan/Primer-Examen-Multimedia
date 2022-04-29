@@ -164,11 +164,42 @@ top: 30px;
 
 .rectangulo{
 position: absolute;
+display: flex;
 width: 272px;
 height: 68px;
-left: 855px;
-top: 1162px;
+left: 0px;
+top: 308px;
 
 background: #6E29A9;
 border-radius: 10px;
+}
+
+.alternativaapp{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 72px;
+    padding-top:  12px;
+}
+
+.titulo2h2{
+position: absolute;
+width: 378px;
+height: 75px;
+left: 770px;
+top: 1390px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+color: #6E29A9;
+justify-content: center;
+}
+
+.lineasub{
+position: absolute;
+width: 135px;
+height: 6px;
+left: 904px;
+top: 1466px;
 }
