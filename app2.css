@@ -1,82 +1,159 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
 
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+.contenedor {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.topnav {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo {
+  position: absolute;
+  width: 193px;
+  height: 47.85px;
+  left: 197px;
+  top: 24.15px;
+}
+.linea {
+  position: absolute;
+  width: 142px;
+  height: 3px;
+  left: 50px;
+  top: 0px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.topnav ul li {
+  list-style: none; /*Quita el punto*/
+  display: inline-block; /*Los alinia en una linea por bloques*/
+  margin-right: 125px;
+  margin-top: 30px;
+}
+.selecciondado {
+  /*margin-right: 50px;*/
+  /*right: 50px;*/
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: rgb(226, 226, 226);
+}
+.topnav ul li a {
+  text-decoration: none;
+  color: #01a1e9;
+  font-size: 14px;
+}
+
+.topnav ul li a:hover {
+  color: #6e29a9;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: rgb(226, 226, 226);
+}
+
+/* .lineanav{
+position: absolute;
+width: 1512px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+} */
+.tituloprincipal {
+  position: absolute;
+  width: 795px;
+  height: 75px;
+  left: 650px;
+  top: 205px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  color: #8200ff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 327px 100px;
+  left: 197px;
+  top: 354px;
+ 
+}
+
+.coltexto {
+  flex-basis: 40%; /*La propiedad de CSS flex-basis especifíca la base flexible, la cual es el tamaño inicial de un elemento flexible. Ésta propiedad determina el tamaño de una caja de contenidos a no ser que se haya especificado de otra forma usando box-sizing */
+  position: relative;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 751px;
+  height: 208px;
+  left: 450px;
+  top: -26px;
+ 
+}
+.coltexto p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  height: 200px;
+  font-weight: 100;
+  line-height: 23px;
+  
+}
+
+.colimagen {
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  margin-left: -400px;
+}
+.colimagen .img1{
+    display: flex;
+    margin-left: 450px;
     
-    }
-    
-    .contenedor{
-        width: 100%;
-        min-height: 100vh;
-        box-sizing: border-box;
-        overflow: hidden;
-        
-    }
-    .topnav{
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    
-    
-    }
-    
-    .logo{
-    position: absolute;
-    width: 193px;
-    height: 47.85px;
-    left: 197px;
-    top: 24.15px;
-    
-    }
-    .linea{
-    position: absolute;
-    width: 142px;
-    height: 3px;
-    left: 50px;
-    top: 0px;
-    
-    }
-    
-    nav{
-        flex:1;
-        text-align: right;
-    }
-    .topnav ul li{
-        list-style: none;/*Quita el punto*/
-        display: inline-block;/*Los alinia en una linea por bloques*/
-        margin-right: 125px;
-        margin-top: 30px;
-    }
-    .selecciondado{
-        /*margin-right: 50px;*/
-        /*right: 50px;*/
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 5px;
-        padding-bottom:5px;
-        background: rgb(226, 226, 226);
-    
-    }
-    .topnav ul li a{
-        text-decoration: none;
-        color: #01A1E9;
-        font-size: 14px;
-        
-       
-        }
-        
-    .topnav ul li a:hover{
-           color:  #6E29A9;
-           padding-left: 25px;
-           padding-right: 25px;
-           padding-top: 5px;
-           padding-bottom:5px;
-           background: rgb(226, 226, 226);
-           
-        }
+}
+
+.h2p{
+position: absolute;
+width: 596px;
+height: 56px;
+left: 550px;
+top: 704px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 56px;
+
+color: #1B314F;
+}

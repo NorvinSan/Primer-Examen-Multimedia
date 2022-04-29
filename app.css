@@ -46,7 +46,9 @@ top: 0px;
 nav{
     flex:1;
     text-align: right;
+    
 }
+
 .topnav ul li{
     list-style: none;/*Quita el punto*/
     display: inline-block;/*Los alinia en una linea por bloques*/
