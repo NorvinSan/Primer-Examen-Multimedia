@@ -157,3 +157,37 @@ line-height: 56px;
 
 color: #1B314F;
 }
+
+.p2{
+position: absolute;
+width: 1118px;
+height: 101px;
+left: 550px;
+top: 760px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+
+.h2final{
+position: absolute;
+width: 447px;
+height: 42px;
+left: 550px;
+top: 1023px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #523E97;
+
+}
