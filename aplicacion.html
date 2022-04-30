@@ -40,37 +40,40 @@
               <a href="aplicacion.html" class="selecciondado">Aplicación</a>
             </li>
           </ul>
+          
         </nav>
       </header>
       <main>
         <h1 class="h1principal">Calcular Salario</h1>
         <h2 class="h2primero">Ingrese su salario</h2>
-        <input type="number" class="btnSalarioMensual" />
-        <button class="calcular">Calcular</button>
+        <input type="number" class="btnSalarioMensual" id="salarioBase" />
+        <button class="calcular" onclick="calcularSalario()">Calcular</button>
 
         <div class="salarioB">
           <p class="psalarioB">Salario Bruto Mensual</p>
-          <p class="lblsalariobm" id="salariobruto">200</p>
+          <p class="lblsalariobm" id="salariobruto">C$0.00</p>
         </div>
 
         <div class="deduccionINSS">
           <p class="psalarioB">Deducción INSS</p>
-          <p class="lblsalariobm" id="deduccionINSS">200</p>
+          <p class="lblsalariobm" id="deduccionINSS">C$0.00</p>
         </div>
 
         <div class="salarioNeto">
           <p class="psalarioBp">Salario neto (luego de deducciones)</p>
-          <p class="lblsalariobm" id="salarioNeto">200</p>
+          <p class="lblsalariobm" id="salarioNeto">C$0.00</p>
         </div>
 
         <div class="deduccionImpuesto">
           <p class="psalarioBpi">Deducción Impuesto sobre la Renta (IR)</p>
-          <p class="lblsalariobm" id="deduccionImpuesto">200</p>
+          <p class="lblsalariobm" id="deduccionImpuesto">C$0.00</p>
         </div>
 
         <div class="salarioTotal">
           <p class="psalarioBpis">Salario total con deducciones</p>
-          <p class="lblsalariobm" id="salarioTotal">200</p>
+          <p class="lblsalariobm" id="salarioTotal">C$0.00</p>
+
+          <script src="calculos.js"></script>
         </div>
       </main>
 
