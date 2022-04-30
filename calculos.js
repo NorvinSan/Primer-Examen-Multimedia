@@ -6,24 +6,24 @@ function calcularSalario(){
     }
     else{
         let salarioBruto = document.getElementById("salariobruto");
-        salarioBruto.innerHTML = "C$ "+ salarioBase;
+        salarioBruto.innerHTML = "C$ "+ salarioBase.toFixed(2);
 
         let salarioMenosInss = document.getElementById("deduccionINSS");
        
-        salarioMenosInss.innerHTML = "C$ "+salarioBase * 0.07;
+        salarioMenosInss.innerHTML = "C$ "+(salarioBase * 0.07).toFixed(2);
         
         let salarioNetoInss = document.getElementById("salarioNeto");
         let salarioMinssTemporal   = salarioBase-(salarioBase * 0.07);
-        salarioNetoInss.innerHTML ="C$ "+ salarioMinssTemporal;
+        salarioNetoInss.innerHTML ="C$ "+ salarioMinssTemporal.toFixed(2);
         let ir =calculoIR(salarioMinssTemporal)
         
 
        let deduccionIR = document.getElementById("deduccionImpuesto");
-       deduccionIR.innerHTML = "C$ "+ir;
+       deduccionIR.innerHTML = "C$ "+ir.toFixed(2);
        
        let salarioTotal = document.getElementById("salarioTotal");
        let salarioMensual = salarioMinssTemporal - ir;
-       salarioTotal.innerHTML= "C$ "+salarioMensual;
+       salarioTotal.innerHTML= "C$ "+salarioMensual.toFixed(2);
         
         
     }
